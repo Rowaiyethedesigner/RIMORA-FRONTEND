@@ -1,4 +1,5 @@
 // app/page.jsx
+import WhyChooseUs from "./components/WhyChooseUs";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 
@@ -29,7 +30,9 @@ export default function HomePage() {
       </section>
 
       {/* ABOUT SECTION */}
-      <AboutSection />
+     <AboutSection />
+<WhyChooseUs />
+
 
     </main>
   );
