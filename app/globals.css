@@ -186,14 +186,15 @@ p {
 ========================= */
 
 .why {
-  padding: 120px 0;
+  padding: 140px 0;
   background: #fafafa;
 }
 
 .why-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 40px;
+  gap: 48px;
+  margin-top: 48px;
 }
 
 .why-card {
@@ -201,6 +202,19 @@ p {
   padding: 40px;
   border-radius: 14px;
 }
+
+.why-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.why-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-muted);
+}
+
 
 /* =========================
    PROPERTIES
