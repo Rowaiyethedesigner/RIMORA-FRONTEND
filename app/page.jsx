@@ -1,5 +1,5 @@
 // app/page.jsx
-
+import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 
 export default function HomePage() {
