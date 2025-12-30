@@ -74,7 +74,7 @@ p {
 }
 
 /* =========================
-   NAVBAR – FIGMA DESKTOP
+   NAVBAR – FIGMA DESKTOP (CENTERED)
 ========================= */
 
 .navbar {
@@ -89,9 +89,9 @@ p {
   max-width: 1440px;
   margin: 0 auto;
   padding: 32px 80px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  justify-content: space-between;
 }
 
 .navbar-logo {
@@ -101,33 +101,37 @@ p {
   color: #ffffff;
 }
 
-.navbar-links {
+/* CENTER LINKS */
+.navbar-center-links {
   list-style: none;
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 48px;
 }
 
-.navbar-links li {
+.navbar-center-links li {
   display: flex;
   align-items: center;
 }
 
-.navbar-links a {
+.navbar-center-links a {
   color: #ffffff;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-  line-height: 1;
 }
 
-.navbar-links a:hover {
+.navbar-center-links a:hover {
   opacity: 0.85;
 }
 
+/* RIGHT CTA */
+.navbar-cta {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar-button {
-  margin-left: 8px;
   padding: 10px 26px;
   background: #ffffff;
   color: #000000 !important;
@@ -135,6 +139,7 @@ p {
   font-size: 14px;
   font-weight: 600;
 }
+
 
 /* =========================
    HERO – FULL VIDEO
