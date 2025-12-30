@@ -107,6 +107,8 @@ p {
   display: flex;
   justify-content: center;
   gap: 48px;
+  position: relative;
+  left: 12px; /* optical centering tweak */
 }
 
 .navbar-center-links li {
